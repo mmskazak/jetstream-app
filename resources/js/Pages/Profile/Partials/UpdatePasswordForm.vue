@@ -1,11 +1,12 @@
 <template>
     <jet-form-section @submitted="updatePassword">
         <template #title>
-            Update Password
+            Обновите пароль
         </template>
 
         <template #description>
-            Ensure your account is using a long, random password to stay secure.
+
+            Убедитесь, что в вашей учетной записи используется длинный случайный пароль, чтобы оставаться в безопасности.
         </template>
 
         <template #form>
